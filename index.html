@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+    <!-- This is where we load JavaScript files that we need - here I'm loading phaser and bootstrap (a bunch of helpful classes
+    to make your websites look more modern and fancy!)-->
+    <meta charset="UTF-8" />
+    <title>ChickTech JavaScript</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/2.6.2/phaser.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!--loading our CSS file-->
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+</head>
+<body>
+<body background="https://i.pinimg.com/originals/48/cc/96/48cc9630473585481901c70932641c89.jpg">
+<!--Build your about me page here!-->
+<div class="titles" >
+    <h1> Hello! </h1>
+</div> 
+
+<div id ="dark-border" div class="images">
+    <div class = "col-md-12"> 
+        <h2 class = "coffee-border"> I'm a senior at Sherwood High School and I love coffee and my cat. </h2> 
+    </div>
+    <div class= "col-md-3" class="coffee image">
+        <img id ="dark-border" src="https://www.tasteslovely.com/wp-content/uploads/2017/06/Whole30-Vanilla-Latte-Coffee-a-dairy-free-refined-sugar-free-Whole30-approved-and-paleo-vanilla-latte-that-is-better-than-Starbucks-1.jpg"
+        height="250" width="250"  >
+    </div>
+    <div class="col-md-3" class="Cat image">
+        <img id ="dark-border" src="https://i.pinimg.com/736x/6d/4f/cf/6d4fcfb3aae7f75fb25a9c3c6e2dea25--food-portions-pets-for-sale.jpg"
+        height="250" width="250" >
+    </div>
+    <div class="col-md-3" class="SHS image">
+        <img src="http://coachesaid.com/Content/Mascots/or-orshs7-letter-150.png"
+        height="230" width="230">
+        
+    </div>
+    
+</div>
+<div class = "facts bar"> 
+    <div class="col-md-3"> 
+        <h3 id = "dark-background"> Interesting things: </h3>
+        <div id ="dark-border">
+           <p> I have a beta fish named Ned</p>
+            <p> I am apart of my school's Girls Who Code club</p>
+            <p> I am an NHS officer</p> 
+        </div>
+        
+    </div>
+</div>
+<div class = "container">
+    <img src = "https://i.pinimg.com/originals/48/cc/96/48cc9630473585481901c70932641c89.jpg">
+</div>
+
+
+
+
+<!--END HTML FOR ABOUT ME PAGE-->
+
+<!--Put any javascript here-->
+<script type="text/javascript">
+
+    //this opens a new window when you click the button with our game html! Since an entire URL is not specified,
+    //it opens relative to your current path - if you are on www.mywebsite.com/index.html, this would go to
+    //www.mywebsite.com/game.html
+    var onClick = function() {
+      window.open('/game.html');
+    };
+
+
+</script>
+
+</body>
+</html>
